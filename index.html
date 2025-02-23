@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,22 +8,21 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello React Learner1</h1>
     <div id="root">
         <h1>Hello React Learner2</h1> <!-- This h1 tag will be replaced by the content which we pass in root render -->
-
     </div>
-    <h1>Hello React Learner3</h1>
 
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- After installing react and react-dom using npm we no longer needed cdn links but we need to import react and reat-dom if we use it in code
+     -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 <!-- <script>
 const heading = document.createElement("h1");
 heading.innerHTML = "hello world";
 const root = document.getElementById("root");
 root.appendChild(heading);
 </script>     -->
-<script src="App.js">
+<script type="module" src="App.js">
    
 </script>
 </body>
