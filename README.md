@@ -19,3 +19,19 @@
 -Https
 -Tree Shaking - remove unused code
 -Different dev and prod bundels
+
+
+# Food Ordering App
+/**
+ * Header
+ *  -Logo
+ *  -Nav items
+ * Body
+ *  -Search
+ *  -Reasturant cards
+ *    -Img
+ *    -title,star rating,cuisines, delivery time
+ * Footer
+ *  -Copyright
+ *  -Links
+ */
