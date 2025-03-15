@@ -40,3 +40,19 @@
  display:flex;
  flex-wrap: wrap;
 }
+
+.shimmer-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    margin:5px;
+    padding:5px;
+    width:300px;
+    height:550px;
+}
+
+.filter{
+    display: flex;
+}
